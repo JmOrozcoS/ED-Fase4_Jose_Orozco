@@ -39,6 +39,7 @@
             this.btnCancelar = new System.Windows.Forms.Button();
             this.LabelInformation = new System.Windows.Forms.Label();
             this.BtnClose = new System.Windows.Forms.Label();
+            this.lbFecha = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbcontraseña
@@ -47,7 +48,7 @@
             this.lbcontraseña.BackColor = System.Drawing.Color.Transparent;
             this.lbcontraseña.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
             this.lbcontraseña.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lbcontraseña.Location = new System.Drawing.Point(28, 165);
+            this.lbcontraseña.Location = new System.Drawing.Point(28, 197);
             this.lbcontraseña.Name = "lbcontraseña";
             this.lbcontraseña.Size = new System.Drawing.Size(69, 15);
             this.lbcontraseña.TabIndex = 14;
@@ -59,7 +60,7 @@
             this.txtcontrasena.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtcontrasena.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
             this.txtcontrasena.ForeColor = System.Drawing.Color.White;
-            this.txtcontrasena.Location = new System.Drawing.Point(103, 166);
+            this.txtcontrasena.Location = new System.Drawing.Point(103, 198);
             this.txtcontrasena.Name = "txtcontrasena";
             this.txtcontrasena.PasswordChar = '*';
             this.txtcontrasena.Size = new System.Drawing.Size(240, 14);
@@ -74,9 +75,9 @@
             this.lnNameApp.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lnNameApp.Location = new System.Drawing.Point(12, 40);
             this.lnNameApp.Name = "lnNameApp";
-            this.lnNameApp.Size = new System.Drawing.Size(104, 19);
+            this.lnNameApp.Size = new System.Drawing.Size(306, 19);
             this.lnNameApp.TabIndex = 17;
-            this.lnNameApp.Text = "HOTEL UNAD";
+            this.lnNameApp.Text = "APLICACIÓN DE LOS ÁRBOLES BINARIOS";
             // 
             // lbDesarrollador
             // 
@@ -123,7 +124,7 @@
             this.btLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btLogin.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
             this.btLogin.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btLogin.Location = new System.Drawing.Point(63, 209);
+            this.btLogin.Location = new System.Drawing.Point(63, 241);
             this.btLogin.Name = "btLogin";
             this.btLogin.Size = new System.Drawing.Size(110, 22);
             this.btLogin.TabIndex = 21;
@@ -140,7 +141,7 @@
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
             this.btnCancelar.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnCancelar.Location = new System.Drawing.Point(210, 209);
+            this.btnCancelar.Location = new System.Drawing.Point(210, 241);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(110, 22);
             this.btnCancelar.TabIndex = 22;
@@ -173,6 +174,17 @@
             this.BtnClose.Text = "x";
             this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
+            // lbFecha
+            // 
+            this.lbFecha.AutoSize = true;
+            this.lbFecha.BackColor = System.Drawing.Color.Transparent;
+            this.lbFecha.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lbFecha.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lbFecha.Location = new System.Drawing.Point(28, 158);
+            this.lbFecha.Name = "lbFecha";
+            this.lbFecha.Size = new System.Drawing.Size(0, 15);
+            this.lbFecha.TabIndex = 25;
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -180,8 +192,9 @@
             this.BackColor = System.Drawing.SystemColors.WindowText;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(385, 271);
+            this.ClientSize = new System.Drawing.Size(385, 299);
             this.ControlBox = false;
+            this.Controls.Add(this.lbFecha);
             this.Controls.Add(this.BtnClose);
             this.Controls.Add(this.LabelInformation);
             this.Controls.Add(this.btnCancelar);
@@ -217,5 +230,6 @@
         internal System.Windows.Forms.Button btnCancelar;
         internal System.Windows.Forms.Label LabelInformation;
         internal System.Windows.Forms.Label BtnClose;
+        private System.Windows.Forms.Label lbFecha;
     }
 }

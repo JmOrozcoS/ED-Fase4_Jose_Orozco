@@ -1,0 +1,13 @@
+C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\obj\Debug\Fase4JoseOrozco.csproj.AssemblyReference.cache
+C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\obj\Debug\Fase4JoseOrozco.Form1.resources
+C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\obj\Debug\Fase4JoseOrozco.FormLogin.resources
+C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\obj\Debug\Fase4JoseOrozco.FormMenu.resources
+C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\obj\Debug\Fase4JoseOrozco.Properties.Resources.resources
+C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\obj\Debug\Fase4JoseOrozco.csproj.GenerateResource.cache
+C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\obj\Debug\Fase4JoseOrozco.csproj.CoreCompileInputs.cache
+C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\bin\Debug\Fase4JoseOrozco.exe.config
+C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\bin\Debug\Fase4JoseOrozco.exe
+C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\bin\Debug\Fase4JoseOrozco.pdb
+C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\obj\Debug\Fase4JoseOrozco.exe
+C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\obj\Debug\Fase4JoseOrozco.pdb
+C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\obj\Debug\Fase4JoseOrozco.FormEsc1.resources

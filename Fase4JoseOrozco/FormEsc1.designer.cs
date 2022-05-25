@@ -1,7 +1,7 @@
 ﻿
 namespace Fase4JoseOrozco
 {
-    partial class FormMenu
+    partial class FormEsc1
     {
         /// <summary>
         /// Required designer variable.
@@ -29,53 +29,30 @@ namespace Fase4JoseOrozco
         /// </summary>
         private void InitializeComponent()
         {
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnSalir = new System.Windows.Forms.Button();
-            this.lbName = new System.Windows.Forms.Label();
+            this.lblEsc1 = new System.Windows.Forms.Label();
             this.lbId = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.escenario1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.escenario2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.preOrdenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inOrdenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.postOrdenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.txtPosX = new System.Windows.Forms.TextBox();
+            this.txtPosY = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label2
+            // lblEsc1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label2.Location = new System.Drawing.Point(172, 56);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(183, 25);
-            this.label2.TabIndex = 58;
-            this.label2.Text = "MENU PRINCIPAL";
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
-            this.btnSalir.FlatAppearance.BorderSize = 0;
-            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalir.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.ForeColor = System.Drawing.Color.White;
-            this.btnSalir.Location = new System.Drawing.Point(414, 140);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(100, 35);
-            this.btnSalir.TabIndex = 57;
-            this.btnSalir.Text = "SALIR";
-            this.btnSalir.UseVisualStyleBackColor = false;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
-            // 
-            // lbName
-            // 
-            this.lbName.AutoSize = true;
-            this.lbName.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lbName.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lbName.Location = new System.Drawing.Point(231, 92);
-            this.lbName.Name = "lbName";
-            this.lbName.Size = new System.Drawing.Size(50, 15);
-            this.lbName.TabIndex = 54;
-            this.lbName.Text = "Nombre";
+            this.lblEsc1.AutoSize = true;
+            this.lblEsc1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEsc1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblEsc1.Location = new System.Drawing.Point(279, 140);
+            this.lblEsc1.Name = "lblEsc1";
+            this.lblEsc1.Size = new System.Drawing.Size(310, 25);
+            this.lblEsc1.TabIndex = 58;
+            this.lblEsc1.Text = "BIENVENIDO AL ESCENARIO 1";
             // 
             // lbId
             // 
@@ -96,22 +73,44 @@ namespace Fase4JoseOrozco
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(548, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1390, 24);
             this.menuStrip1.TabIndex = 60;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // escenario1ToolStripMenuItem
             // 
             this.escenario1ToolStripMenuItem.Name = "escenario1ToolStripMenuItem";
-            this.escenario1ToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
-            this.escenario1ToolStripMenuItem.Text = "Escenario 1";
+            this.escenario1ToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.escenario1ToolStripMenuItem.Text = "Gráfica";
             this.escenario1ToolStripMenuItem.Click += new System.EventHandler(this.escenario1ToolStripMenuItem_Click);
             // 
             // escenario2ToolStripMenuItem
             // 
+            this.escenario2ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.preOrdenToolStripMenuItem,
+            this.inOrdenToolStripMenuItem,
+            this.postOrdenToolStripMenuItem});
             this.escenario2ToolStripMenuItem.Name = "escenario2ToolStripMenuItem";
-            this.escenario2ToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
-            this.escenario2ToolStripMenuItem.Text = "Escenario 2";
+            this.escenario2ToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
+            this.escenario2ToolStripMenuItem.Text = "Recorridos";
+            // 
+            // preOrdenToolStripMenuItem
+            // 
+            this.preOrdenToolStripMenuItem.Name = "preOrdenToolStripMenuItem";
+            this.preOrdenToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.preOrdenToolStripMenuItem.Text = "PreOrden";
+            // 
+            // inOrdenToolStripMenuItem
+            // 
+            this.inOrdenToolStripMenuItem.Name = "inOrdenToolStripMenuItem";
+            this.inOrdenToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.inOrdenToolStripMenuItem.Text = "InOrden";
+            // 
+            // postOrdenToolStripMenuItem
+            // 
+            this.postOrdenToolStripMenuItem.Name = "postOrdenToolStripMenuItem";
+            this.postOrdenToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.postOrdenToolStripMenuItem.Text = "PostOrden";
             // 
             // salirToolStripMenuItem
             // 
@@ -120,19 +119,33 @@ namespace Fase4JoseOrozco
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
-            // FormMenu
+            // txtPosX
+            // 
+            this.txtPosX.Location = new System.Drawing.Point(1307, 46);
+            this.txtPosX.Name = "txtPosX";
+            this.txtPosX.Size = new System.Drawing.Size(71, 20);
+            this.txtPosX.TabIndex = 61;
+            // 
+            // txtPosY
+            // 
+            this.txtPosY.Location = new System.Drawing.Point(1307, 72);
+            this.txtPosY.Name = "txtPosY";
+            this.txtPosY.Size = new System.Drawing.Size(71, 20);
+            this.txtPosY.TabIndex = 62;
+            // 
+            // FormEsc1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(548, 204);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.lbName);
+            this.ClientSize = new System.Drawing.Size(1390, 512);
+            this.Controls.Add(this.txtPosY);
+            this.Controls.Add(this.txtPosX);
+            this.Controls.Add(this.lblEsc1);
             this.Controls.Add(this.lbId);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "FormMenu";
+            this.Name = "FormEsc1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.menuStrip1.ResumeLayout(false);
@@ -144,13 +157,16 @@ namespace Fase4JoseOrozco
 
         #endregion
 
-        public System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnSalir;
-        private System.Windows.Forms.Label lbName;
+        public System.Windows.Forms.Label lblEsc1;
         private System.Windows.Forms.Label lbId;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem escenario1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem escenario2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem preOrdenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem inOrdenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem postOrdenToolStripMenuItem;
+        private System.Windows.Forms.TextBox txtPosX;
+        private System.Windows.Forms.TextBox txtPosY;
     }
 }

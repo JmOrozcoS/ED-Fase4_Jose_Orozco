@@ -19,7 +19,8 @@ namespace Fase4JoseOrozco
 
         private void FormLogin_Load(object sender, EventArgs e)
         {
-
+            this.txtcontrasena.Focus();
+            this.lbFecha.Text = DateTime.Now.ToLongDateString();
         }
 
         private void btnCancelar_Click_1(object sender, EventArgs e)

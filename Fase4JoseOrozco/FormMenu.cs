@@ -17,13 +17,6 @@ namespace Fase4JoseOrozco
             InitializeComponent();
         }
 
-        private void btnPila_Click(object sender, EventArgs e)
-        {
-           /* Form FormP = new FormPila();
-            FormP.Show();
-            this.Hide();*/
-        }
-
         private void btnSalir_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Seguro que dese salir?", "", MessageBoxButtons.YesNo);
@@ -35,20 +28,6 @@ namespace Fase4JoseOrozco
             else if (result == DialogResult.No)
             {
             }
-        }
-
-        private void btnCola_Click(object sender, EventArgs e)
-        {
-           /* FormCola FormC = new FormCola();
-            FormC.Show();
-            this.Hide();*/
-        }
-
-        private void btnLista_Click(object sender, EventArgs e)
-        {
-            /*FormLista FormL = new FormLista();
-            FormL.Show();
-            this.Hide();*/
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
@@ -68,6 +47,13 @@ namespace Fase4JoseOrozco
         {
             FormEsc1 Esc1 = new FormEsc1();
             Esc1.Show();
+
+        }
+
+        private void escenario2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormEsc2 Esc2 = new FormEsc2();
+            Esc2.Show();
 
         }
     }

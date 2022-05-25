@@ -40,6 +40,8 @@ namespace Fase4JoseOrozco
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.txtPosX = new System.Windows.Forms.TextBox();
             this.txtPosY = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,7 +75,7 @@ namespace Fase4JoseOrozco
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1390, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1125, 24);
             this.menuStrip1.TabIndex = 60;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -99,18 +101,21 @@ namespace Fase4JoseOrozco
             this.preOrdenToolStripMenuItem.Name = "preOrdenToolStripMenuItem";
             this.preOrdenToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.preOrdenToolStripMenuItem.Text = "PreOrden";
+            this.preOrdenToolStripMenuItem.Click += new System.EventHandler(this.preOrdenToolStripMenuItem_Click);
             // 
             // inOrdenToolStripMenuItem
             // 
             this.inOrdenToolStripMenuItem.Name = "inOrdenToolStripMenuItem";
             this.inOrdenToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.inOrdenToolStripMenuItem.Text = "InOrden";
+            this.inOrdenToolStripMenuItem.Click += new System.EventHandler(this.inOrdenToolStripMenuItem_Click);
             // 
             // postOrdenToolStripMenuItem
             // 
             this.postOrdenToolStripMenuItem.Name = "postOrdenToolStripMenuItem";
             this.postOrdenToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.postOrdenToolStripMenuItem.Text = "PostOrden";
+            this.postOrdenToolStripMenuItem.Click += new System.EventHandler(this.postOrdenToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
@@ -121,23 +126,47 @@ namespace Fase4JoseOrozco
             // 
             // txtPosX
             // 
-            this.txtPosX.Location = new System.Drawing.Point(1307, 46);
+            this.txtPosX.Location = new System.Drawing.Point(1011, 33);
             this.txtPosX.Name = "txtPosX";
             this.txtPosX.Size = new System.Drawing.Size(71, 20);
             this.txtPosX.TabIndex = 61;
             // 
             // txtPosY
             // 
-            this.txtPosY.Location = new System.Drawing.Point(1307, 72);
+            this.txtPosY.Location = new System.Drawing.Point(1011, 59);
             this.txtPosY.Name = "txtPosY";
             this.txtPosY.Size = new System.Drawing.Size(71, 20);
             this.txtPosY.TabIndex = 62;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label1.Location = new System.Drawing.Point(959, 34);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 16);
+            this.label1.TabIndex = 63;
+            this.label1.Text = "Pos X:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label2.Location = new System.Drawing.Point(959, 60);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(45, 16);
+            this.label2.TabIndex = 64;
+            this.label2.Text = "Pos Y:";
             // 
             // FormEsc1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1390, 512);
+            this.ClientSize = new System.Drawing.Size(1125, 643);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPosY);
             this.Controls.Add(this.txtPosX);
             this.Controls.Add(this.lblEsc1);
@@ -168,5 +197,7 @@ namespace Fase4JoseOrozco
         private System.Windows.Forms.ToolStripMenuItem postOrdenToolStripMenuItem;
         private System.Windows.Forms.TextBox txtPosX;
         private System.Windows.Forms.TextBox txtPosY;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label label2;
     }
 }

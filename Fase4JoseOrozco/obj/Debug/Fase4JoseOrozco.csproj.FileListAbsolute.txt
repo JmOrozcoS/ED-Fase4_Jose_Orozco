@@ -11,3 +11,4 @@ C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\bin\Debug\F
 C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\obj\Debug\Fase4JoseOrozco.exe
 C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\obj\Debug\Fase4JoseOrozco.pdb
 C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\obj\Debug\Fase4JoseOrozco.FormEsc1.resources
+C:\Users\José\Documents\GitHub\ED-Fase4_Jose_Orozco\Fase4JoseOrozco\obj\Debug\Fase4JoseOrozco.FormEsc2.resources
